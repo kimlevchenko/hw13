@@ -17,13 +17,14 @@ public class Main {
         System.out.println(book2);
         System.out.println();
         if (book1.equals(book2)) {
-            System.out.println("Проверьте наименование, такая книга уже существует");
+            System.out.println("Такая книга уже существует");
         } else
             System.out.println("Новая книга добавлена");
         if (author1.equals(author2)) {
             System.out.println("Проверьте данные, автор с такой фамилией уже существует");
         } else
             System.out.println("Новый автор добавлен");
+
     }
 
 }
